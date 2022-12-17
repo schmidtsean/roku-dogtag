@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .App-logo {
@@ -14,14 +15,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +36,159 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.photo {
+  height: 230px;
+  width: 250px;
+  border-radius: 40px;
+ 
+}
+
+.sticky {
+  overflow: hidden;
+  position: center;
+  bottom: 0;
+  width: 100%;
+  padding-top: auto;
+}
+
+.stickyBottom {
+  display:inline;
+  overflow:hidden;
+  position: fixed;
+  bottom: 0; 
+  width: 100%;
+  margin-top: 500px;
+  height:auto;
+}
+
+.wrap {
+
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.intro {
+  padding-top: 8%;
+  font-family: bebas neue;
+  font-size: 48px;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -5;
+  
+}
+
+.subhead {
+  font-family: PT Sans;
+  font-size: 18px;
+  margin-top: -3%;
+}
+
+.number {
+  font-size: 20.4px;
+  font-family: bebas neue;
+
+}
+
+.numbers {
+  font-size: 20.4px;
+  font-family: bebas neue;
+ 
+  margin-top: 50%;
+  margin-left: -7%;
+}
+
+.navtext {
+  font-size:16px ;
+  font-family: Bebas neue;
+}
+
+.commands {
+  font-family: PT Sans;
+  font-size: 16px;
+  padding-left: 5%;
+  margin-right: -30%;
+  margin-top: -1%;
+}
+
+.foods {
+  font-family: PT Sans;
+  font-size: 18px;
+  margin-top: -5%;
+  margin-left: -5%;
+  margin-right: -5%;
+}
+
+.list1 {
+  padding-top: 20%;
+  font-size: 24px;
+  font-family: PT Sans;
+  margin-left: -100%;
+  text-align: left;
+}
+
+.list2 {
+  margin-top: -50%;
+  font-size: 24px;
+  font-family: PT Sans;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.paragraph {
+  font-size: 17px ;
+  font-family: PT Sans;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.foodpic1 {
+  width: 100%;
+  margin-left: -5%;
+  margin-top: 10%;
+}
+
+.foodpic2 {
+  width: 107%;
+  margin-left: -5%;
+  margin-top: 10%;
+}
+
+.title1 {
+  margin-left: -25%;
+}
+
+.butt {
+  width: 95% !important;
+}
+
+.parent {
+  margin-left: 0%;
+  margin-top: -3% !important;
+  font-family: Bebas Neue;
+  font-size: 24px;
+}
+
+.number2 {
+  margin-left: 10%;
+  color: #915858;
+  font-size: 23px;
+  font-family: PT Sans;
+  
+}
+
+
+.subParent {
+  margin-right: 50%;
+  margin-top: -5%;
+  margin-bottom: -3% !important;
+}
+
+.navheight {
+  height:50% !important
 }
