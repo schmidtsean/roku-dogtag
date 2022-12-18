@@ -45,7 +45,8 @@ const Home = () => {
       <img className='photo' src={require('../Img/roku.jpg')} alt='arya'/>
       </div>
       <h3 className='number'>FOR EMERGENCIES, PLEASE CONTACT</h3>
-      <h4 className='number'>Neighborhood Vet Care |
+      <h4 className='number'>
+      <a href='https://www.nvetcare.com/' style={{color:'#915858'}}>Neighborhood Vet Care </a>|
         <a href='tel:(801)281-8387' style={{color:'#915858'}}>
           +1 (801)281-8387 
         </a>
